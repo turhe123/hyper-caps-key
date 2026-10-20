@@ -1,0 +1,60 @@
+{
+  "seo_title": "Hyper key for macOS Caps Lock",
+  "seo_description": "Free, open-source macOS menu bar app that turns Caps Lock into a Hyper key, adding Command, Option, Control and Shift to any key for conflict-free shortcuts.",
+  "hero_title_line1": "Caps Lock becomes",
+  "hero_title_accent": "your Hyper key.",
+  "hero_sub": "Hold Caps Lock and every key you press carries Command, Option, Control and Shift together. Tap it alone to send Escape. A free, native menu bar app for conflict-free shortcuts.",
+  "features_title": "One key, every modifier.",
+  "features_sub": "A small, native utility that does one job and keeps your keyboard returning to normal when it quits.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Choose your Hyper key",
+      "desc": "Use Caps Lock, Right Command, Right Option or Right Control as the source key. While it is held, all other key presses get Command, Option, Control and Shift added."
+    },
+    {
+      "icon": "bolt",
+      "title": "Hold or latch",
+      "desc": "Apply Hyper only while the key is held, or let a quick tap arm it for the next key press. Key repeat never re-triggers the tap action."
+    },
+    {
+      "icon": "sliders",
+      "title": "Quick tap action",
+      "desc": "A tap with no other key can send Escape or do nothing. Switch it from the menu bar or in Settings."
+    },
+    {
+      "icon": "shield",
+      "title": "Safe Caps Lock remapping",
+      "desc": "Caps Lock is remapped to F18 on all connected keyboards, and any mapping you already had is saved and restored. If the remap fails, Right Command takes over as Hyper."
+    },
+    {
+      "icon": "eye",
+      "title": "Built-in test pad",
+      "desc": "See the last event type, key code and modifier flags in Settings. It records key codes only, never typed characters, and clears when closed."
+    },
+    {
+      "icon": "clock",
+      "title": "Runs quietly at login",
+      "desc": "Lives in the menu bar with an icon that fills while Hyper is active. It can launch at login, reapplies its mapping after sleep, and re-enables its event tap if the system disables it."
+    }
+  ],
+  "permissions_step": "Grant Accessibility access to HyperCapsKey in System Settings > Privacy & Security > Accessibility so it can add the Hyper modifiers to your key presses.",
+  "faq": [
+    {
+      "q": "Is HyperCapsKey really free and open source?",
+      "a": "Yes. It is released under the MIT license, with the full source on GitHub. There is no account, no server and no third-party dependencies, only Apple frameworks."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility is required, because the app uses an event tap to add the Hyper modifiers and to post Escape on a quick tap. Launch at login is optional. It asks for nothing else and makes no network connections."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only your settings, such as the source key and tap behavior, are saved locally in the app's preferences, along with your previous key mapping so it can be restored. Nothing leaves your Mac, and typed characters are never recorded."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free open-source project. Right-click the app and choose Open once to get past Gatekeeper, or build it from source with Xcode."
+    }
+  ]
+}

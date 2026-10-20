@@ -1,5 +1,7 @@
 # HyperCapsKey
 
+**🌐 Website:** [turhe123.github.io/hyper-caps-key](https://turhe123.github.io/hyper-caps-key/)
+
 Turn Caps Lock into a Hyper key that fires Command, Option, Control and Shift together for your shortcuts.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -27,7 +29,17 @@ HyperCapsKey is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-settings.png" alt="HyperCapsKey Settings window" width="720"></p>
+
+<p align="center"><em>The HyperCapsKey Settings window: turn the Hyper key on, pick the source key, choose hold or latch, and set what a quick tap does.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-source-key.png" alt="Source key picker showing Caps Lock and right-side modifier options" width="560"></p>
+
+<p align="center"><em>Choose which key becomes Hyper: Caps Lock, Right Command, Right Option or Right Control.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-menu.png" alt="HyperCapsKey menu bar menu" width="560"></p>
+
+<p align="center"><em>The menu bar menu before Accessibility is granted, with a shortcut to grant it, Settings, a Support link and Quit.</em></p>
 
 ## Install
 

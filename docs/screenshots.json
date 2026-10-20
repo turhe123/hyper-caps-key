@@ -1,0 +1,5 @@
+[
+  {"file":"01-settings.png","caption":"The HyperCapsKey Settings window: turn the Hyper key on, pick the source key, choose hold or latch, and set what a quick tap does.","alt":"HyperCapsKey Settings window"},
+  {"file":"02-source-key.png","caption":"Choose which key becomes Hyper: Caps Lock, Right Command, Right Option or Right Control.","alt":"Source key picker showing Caps Lock and right-side modifier options"},
+  {"file":"03-menu.png","caption":"The menu bar menu before Accessibility is granted, with a shortcut to grant it, Settings, a Support link and Quit.","alt":"HyperCapsKey menu bar menu"}
+]
